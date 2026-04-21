@@ -16,7 +16,22 @@
       justify-content: center;
       height: 100vh;
     }
+    
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background: #d4af37;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.2s;
+}
 
+.btn:hover {
+  background: #e6c75a;
+}
     .card {
       background: #1a1a1a;
       border: 1px solid #333;
@@ -83,12 +98,19 @@
     </div>
 
     <div class="contact">
-      <p>
-        <strong>Contact:</strong><br>
-        <a href="mailto:jknumismatics@gmail.com">jknumismatics@gmail.com</a>
-      </p>
-    </div>
+  <p><strong>Contact:</strong></p>
 
+  <p>
+    <a href="mailto:jknumismatics@gmail.com">
+      jknumismatics@gmail.com
+    </a>
+  </p>
+
+  <a href="mailto:jknumismatics@gmail.com?subject=Inquiry%20from%20JK%20Numismatics&body=Hi%2C%20I%20have%20a%20question%20about..."
+     class="btn">
+    Send Message
+  </a>
+</div>
     <div class="footer">
       <p>Serving collectors nationwide</p>
     </div>
